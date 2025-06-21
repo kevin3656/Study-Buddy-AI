@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "target": "ES6", // Specify ECMAScript target version
+      "module": "ESNext", // Use ESNext modules
+      "lib": ["DOM", "ESNext"], // Include DOM and ESNext libraries
+      "jsx": "react-jsx", // Enable React JSX support
+      "strict": true, // Enable strict type checking
+      "moduleResolution": "node", // Resolve modules using Node.js conventions
+      "esModuleInterop": true, // Allow default imports from CommonJS modules
+      "skipLibCheck": true, // Skip type checking of declaration files
+      "forceConsistentCasingInFileNames": true // Enforce consistent casing in imports
+    },
+    "include": ["src"], // Include files in the `src` directory
+    "exclude": ["node_modules"] // Exclude `node_modules` from type checking
+  }
